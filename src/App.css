@@ -19,10 +19,11 @@ body {
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: 90%; /* Use 90% width for responsiveness */
-  max-width: 400px;
+  width: 90%; /* Default width for small devices */
+  max-width: 500px; /* Slightly larger container for medium screens */
   box-sizing: border-box;
-  margin: 0 auto; /* Center horizontally if extra space exists */
+  margin: 0 auto;
+  transition: max-width 0.3s ease; /* Smooth transition for resizing */
 }
 
 /* Header */
@@ -132,6 +133,34 @@ button:hover {
 }
 
 /* Responsive Design */
+@media (min-width: 1024px) {
+  .app {
+    max-width: 600px; /* Larger container for desktops */
+    padding: 2.5rem; /* Add a little more padding for better aesthetics */
+  }
+
+  h1 {
+    font-size: 2.5rem; /* Larger font size for desktop */
+  }
+
+  .formula {
+    font-size: 1.2rem;
+  }
+
+  button,
+  .toggle button {
+    font-size: 1.1rem;
+  }
+
+  input {
+    font-size: 1.1rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .app {
     width: 95%;
