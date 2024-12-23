@@ -196,7 +196,8 @@ button:hover {
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased font size for mobile */
+    font-weight: bold; /* Make it bolder for emphasis */
   }
 
   .formula {
