@@ -1,0 +1,111 @@
+/* Reset and Background */
+body {
+  background-color: #f5f5dc;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main App Container */
+.app {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Header */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Toggle Buttons */
+.toggle {
+  margin-bottom: 1rem;
+}
+.toggle button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.toggle button:hover {
+  background-color: #0056b3;
+}
+
+/* Formula Section */
+.formula {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.formula .variable {
+  color: #d9534f; /* Red for variables */
+  font-weight: bold;
+}
+
+/* Input Fields */
+.inputs label {
+  display: block;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background for inputs */
+  color: #000; /* Black text color */
+}
+
+/* Calculate Button */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Result Section */
+.result h2 {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #555; /* Subtle gray */
+  text-align: right;
+}
